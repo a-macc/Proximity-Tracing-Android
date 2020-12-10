@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="always"
+        android:title="@string/refresh" />
+
+    <item
+        android:id="@+id/sync"
+        android:iconTint="@android:color/black"
+        android:title="Sync database"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/i_tested_positive"
+        android:title="Tested positive"
+        app:showAsAction="never" />
+
+
+</menu>
